@@ -1,0 +1,69 @@
+punctuation_chars = ["'", '"', ",", ".", "!", ":", ";", '#', '@']
+# lists of words to use
+
+def strip_punctuation(word):
+    for punc in punctuation_chars:
+        word=word.replace(punc,"")
+    return word
+
+positive_words = []
+with open("positive_words.txt") as pos_f:
+    for lin in pos_f:
+        if lin[0] != ';' and lin[0] != '\n':
+            positive_words.append(lin.strip())
+            
+def get_pos(sentence):
+    sentence=strip_punctuation(sentence)
+    sentence=sentence.lower()
+    listsentence=sentence.split()
+    
+    count=0
+    for word in listsentence:
+        for positiveword in positive_words:
+            if word==positiveword:
+                count=count+1
+    return count
+
+negative_words = []
+with open("negative_words.txt") as pos_f:
+    for lin in pos_f:
+        if lin[0] != ';' and lin[0] != '\n':
+            negative_words.append(lin.strip())
+
+def get_neg(sentence):
+    sentence=strip_punctuation(sentence)
+    sentence=sentence.lower()
+    listsentence=sentence.split()
+    
+    count=0
+    for word in listsentence:
+        for negativeword in negative_words:
+            if word==negativeword:
+                count=count+1
+    return count
+
+
+projectTwitterFile=open("project_twitter_data.csv","r")
+lines=projectTwitterFile.readlines()
+header=lines[0]
+field_names=header.strip().split(',')
+
+resultingFile=open("resulting_data.csv","w")
+resultingFile.write("Number of Retweets, Number of Replies, Positive Score, Negative Score, Net Score")
+resultingFile.write('\n')
+
+for row in lines[1:]:
+    vals=row.strip().split(',')
+    positive_score=get_pos(vals[0])
+    vals.append(positive_score)
+    negative_score=get_neg(vals[0])
+    vals.append(negative_score)
+    net_score=positive_score-negative_score
+    vals.append(net_score)
+    vals="{},{},{},{},{}".format(vals[1],vals[2],vals[3],vals[4],vals[5])
+    
+    resultingFile.write(vals)
+    resultingFile.write("\n")
+
+projectTwitterFile.close()
+resultingFile.close()
