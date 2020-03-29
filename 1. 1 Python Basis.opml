@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+	<head>
+		<title>1. 1 Python Basis</title>
+	</head>
+	<body>
+		<outline text="入门" _mubu_text="%E5%85%A5%E9%97%A8">
+		<outline text="statement" _mubu_text="statement">
+		<outline text="赋值语句 x=1+2    1+2是expression 整体语句是statement" _mubu_text="%E8%B5%8B%E5%80%BC%E8%AF%AD%E5%8F%A5%20x=1+2%20%20%20%201+2%E6%98%AFexpression%20%E6%95%B4%E4%BD%93%E8%AF%AD%E5%8F%A5%E6%98%AFstatement">
+		</outline>
+		</outline>
+		<outline text="Expression" _mubu_text="Expression">
+		<outline text="literal expression：expression和value一模一样" _mubu_text="literal%20expression%EF%BC%9Aexpression%E5%92%8Cvalue%E4%B8%80%E6%A8%A1%E4%B8%80%E6%A0%B7">
+		</outline>
+		</outline>
+		<outline text="value" _mubu_text="value">
+		</outline>
+		<outline text="Type" _mubu_text="Type">
+		<outline text="integer 100" _mubu_text="integer%20100">
+		</outline>
+		<outline text="float 3.14" _mubu_text="float%203.14">
+		</outline>
+		<outline text="string: a sequence of characteristics   “hello, Coursera!”这样的" _mubu_text="string:%20a%20sequence%20of%20characteristics%20%20%20%E2%80%9Chello,%20Coursera!%E2%80%9D%E8%BF%99%E6%A0%B7%E7%9A%84">
+		</outline>
+		</outline>
+		<outline text="print statement: print()才会打印出来 如果只是一个数字就打不出来" _mubu_text="print%20statement:%20print()%E6%89%8D%E4%BC%9A%E6%89%93%E5%8D%B0%E5%87%BA%E6%9D%A5%20%E5%A6%82%E6%9E%9C%E5%8F%AA%E6%98%AF%E4%B8%80%E4%B8%AA%E6%95%B0%E5%AD%97%E5%B0%B1%E6%89%93%E4%B8%8D%E5%87%BA%E6%9D%A5">
+		<outline text="print(30+42)" _mubu_text="print(30+42)">
+		</outline>
+		<outline text="print(10%3) modulo operator----1 保留余数 模运算 可以检查一个数字是否能被另一个数字整除" _mubu_text="print(10%253)%20modulo%20operator----1%20%E4%BF%9D%E7%95%99%E4%BD%99%E6%95%B0%20%E6%A8%A1%E8%BF%90%E7%AE%97%20%E5%8F%AF%E4%BB%A5%E6%A3%80%E6%9F%A5%E4%B8%80%E4%B8%AA%E6%95%B0%E5%AD%97%E6%98%AF%E5%90%A6%E8%83%BD%E8%A2%AB%E5%8F%A6%E4%B8%80%E4%B8%AA%E6%95%B0%E5%AD%97%E6%95%B4%E9%99%A4">
+		</outline>
+		<outline text="// 剪掉余数 print(1.0//3.0)会输出2.0 输出的同样是float但是已经剪掉余数  print(18.0 // 4)答案是4.0" _mubu_text="//%20%E5%89%AA%E6%8E%89%E4%BD%99%E6%95%B0%20print(1.0//3.0)%E4%BC%9A%E8%BE%93%E5%87%BA2.0%20%E8%BE%93%E5%87%BA%E7%9A%84%E5%90%8C%E6%A0%B7%E6%98%AFfloat%E4%BD%86%E6%98%AF%E5%B7%B2%E7%BB%8F%E5%89%AA%E6%8E%89%E4%BD%99%E6%95%B0%20%20print(18.0%20//%204)%E7%AD%94%E6%A1%88%E6%98%AF4.0">
+		</outline>
+		<outline text="print(4**2) 4的2次幂" _mubu_text="print(4**2)%204%E7%9A%842%E6%AC%A1%E5%B9%82">
+		</outline>
+		<outline text="/ 除出来的是float 就算是2输出也会是2.0" _mubu_text="/%20%E9%99%A4%E5%87%BA%E6%9D%A5%E7%9A%84%E6%98%AFfloat%20%E5%B0%B1%E7%AE%97%E6%98%AF2%E8%BE%93%E5%87%BA%E4%B9%9F%E4%BC%9A%E6%98%AF2.0">
+		</outline>
+		<outline text="优先等级是 括号幂乘除加减" _mubu_text="%E4%BC%98%E5%85%88%E7%AD%89%E7%BA%A7%E6%98%AF%20%E6%8B%AC%E5%8F%B7%E5%B9%82%E4%B9%98%E9%99%A4%E5%8A%A0%E5%87%8F">
+		</outline>
+		<outline text="print(2 ** 3 ** 2)     # the right-most ** operator gets done first!   print((2 ** 3) ** 2)   # use parentheses to force the order you want!" _mubu_text="print(2%20**%203%20**%202)%20%20%20%20%20#%20the%20right-most%20**%20operator%20gets%20done%20first!%20%20%20print((2%20**%203)%20**%202)%20%20%20#%20use%20parentheses%20to%20force%20the%20order%20you%20want!">
+		</outline>
+		<outline text="print((square(3)+2)     print(sub(square(3),square(1+1)))" _mubu_text="print((square(3)+2)%20%20%20%20%20print(sub(square(3),square(1+1)))">
+		</outline>
+		<outline text="print(type(3)) 输出 ‘int'" _mubu_text="print(type(3))%20%E8%BE%93%E5%87%BA%20%E2%80%98int'">
+		</outline>
+		<outline text="单引号双引号三引号都是string   运用规则跟中文里 最外面到最里面不一样是相同的" _mubu_text="%E5%8D%95%E5%BC%95%E5%8F%B7%E5%8F%8C%E5%BC%95%E5%8F%B7%E4%B8%89%E5%BC%95%E5%8F%B7%E9%83%BD%E6%98%AFstring%20%20%20%E8%BF%90%E7%94%A8%E8%A7%84%E5%88%99%E8%B7%9F%E4%B8%AD%E6%96%87%E9%87%8C%20%E6%9C%80%E5%A4%96%E9%9D%A2%E5%88%B0%E6%9C%80%E9%87%8C%E9%9D%A2%E4%B8%8D%E4%B8%80%E6%A0%B7%E6%98%AF%E7%9B%B8%E5%90%8C%E7%9A%84">
+		</outline>
+		<outline text="print(&quot;&quot;&quot;This message will span                  several lines                    of the text.&quot;&quot;&quot;) 三引号可以跨越多行显示" _mubu_text="print(%22%22%22This%20message%20will%20span%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20several%20lines%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20of%20the%20text.%22%22%22)%20%E4%B8%89%E5%BC%95%E5%8F%B7%E5%8F%AF%E4%BB%A5%E8%B7%A8%E8%B6%8A%E5%A4%9A%E8%A1%8C%E6%98%BE%E7%A4%BA">
+		</outline>
+		</outline>
+		<outline text="int()   float()  str()可以转换字符的type" _mubu_text="int()%20%20%20float()%20%20str()%E5%8F%AF%E4%BB%A5%E8%BD%AC%E6%8D%A2%E5%AD%97%E7%AC%A6%E7%9A%84type">
+		<outline text="int(3.999)---3 不是四舍五入而是直接取整数" _mubu_text="int(3.999)---3%20%E4%B8%8D%E6%98%AF%E5%9B%9B%E8%88%8D%E4%BA%94%E5%85%A5%E8%80%8C%E6%98%AF%E7%9B%B4%E6%8E%A5%E5%8F%96%E6%95%B4%E6%95%B0">
+		</outline>
+		<outline text="int(-3.999)----变成-3" _mubu_text="int(-3.999)----%E5%8F%98%E6%88%90-3">
+		</outline>
+		<outline text="print(int(&quot;23bottles&quot;))会错误 因为 里面含有string 识别不出来" _mubu_text="print(int(%2223bottles%22))%E4%BC%9A%E9%94%99%E8%AF%AF%20%E5%9B%A0%E4%B8%BA%20%E9%87%8C%E9%9D%A2%E5%90%AB%E6%9C%89string%20%E8%AF%86%E5%88%AB%E4%B8%8D%E5%87%BA%E6%9D%A5">
+		</outline>
+		<outline text="print(&quot;2345&quot;, int(&quot;2345&quot;))        # parse a string to produce an int                     输出是2345 2345" _mubu_text="print(%222345%22,%20int(%222345%22))%20%20%20%20%20%20%20%20#%20parse%20a%20string%20to%20produce%20an%20int%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%E8%BE%93%E5%87%BA%E6%98%AF2345%202345">
+		</outline>
+		<outline text="有时候想要把一些string和数字结合起来但是python识别不到两种type    e.g. val=50+5   print(&quot;the value is&quot; +str(50+5))" _mubu_text="%E6%9C%89%E6%97%B6%E5%80%99%E6%83%B3%E8%A6%81%E6%8A%8A%E4%B8%80%E4%BA%9Bstring%E5%92%8C%E6%95%B0%E5%AD%97%E7%BB%93%E5%90%88%E8%B5%B7%E6%9D%A5%E4%BD%86%E6%98%AFpython%E8%AF%86%E5%88%AB%E4%B8%8D%E5%88%B0%E4%B8%A4%E7%A7%8Dtype%20%20%20%20e.g.%20val=50+5%20%20%20print(%22the%20value%20is%22%20+str(50+5))">
+		</outline>
+		</outline>
+		<outline text="variable" _mubu_text="variable">
+		<outline text="只能字母开始 只能包含数字和letter和下划线 可大写小写 python区分大小写   有些像lambda  and 这种是本身带有含义的不能拿来作为定义variable" _mubu_text="%E5%8F%AA%E8%83%BD%E5%AD%97%E6%AF%8D%E5%BC%80%E5%A7%8B%20%E5%8F%AA%E8%83%BD%E5%8C%85%E5%90%AB%E6%95%B0%E5%AD%97%E5%92%8Cletter%E5%92%8C%E4%B8%8B%E5%88%92%E7%BA%BF%20%E5%8F%AF%E5%A4%A7%E5%86%99%E5%B0%8F%E5%86%99%20python%E5%8C%BA%E5%88%86%E5%A4%A7%E5%B0%8F%E5%86%99%20%20%20%E6%9C%89%E4%BA%9B%E5%83%8Flambda%20%20and%20%E8%BF%99%E7%A7%8D%E6%98%AF%E6%9C%AC%E8%BA%AB%E5%B8%A6%E6%9C%89%E5%90%AB%E4%B9%89%E7%9A%84%E4%B8%8D%E8%83%BD%E6%8B%BF%E6%9D%A5%E4%BD%9C%E4%B8%BA%E5%AE%9A%E4%B9%89variable">
+		</outline>
+		<outline text=" python中可以定义     myname=5    myname=&quot;Cynthia&quot; 这是两个不同的变量虽然有相同的名字 所以定义variable的时候没有固定的形式  不是说myname只能是str  这个跟C java中不一样" _mubu_text="%20python%E4%B8%AD%E5%8F%AF%E4%BB%A5%E5%AE%9A%E4%B9%89%20%20%20%20%20myname=5%20%20%20%20myname=%22Cynthia%22%20%E8%BF%99%E6%98%AF%E4%B8%A4%E4%B8%AA%E4%B8%8D%E5%90%8C%E7%9A%84%E5%8F%98%E9%87%8F%E8%99%BD%E7%84%B6%E6%9C%89%E7%9B%B8%E5%90%8C%E7%9A%84%E5%90%8D%E5%AD%97%20%E6%89%80%E4%BB%A5%E5%AE%9A%E4%B9%89variable%E7%9A%84%E6%97%B6%E5%80%99%E6%B2%A1%E6%9C%89%E5%9B%BA%E5%AE%9A%E7%9A%84%E5%BD%A2%E5%BC%8F%20%20%E4%B8%8D%E6%98%AF%E8%AF%B4myname%E5%8F%AA%E8%83%BD%E6%98%AFstr%20%20%E8%BF%99%E4%B8%AA%E8%B7%9FC%20java%E4%B8%AD%E4%B8%8D%E4%B8%80%E6%A0%B7">
+		</outline>
+		<outline text="a=15  print(a+4) 会输出19" _mubu_text="a=15%20%20print(a+4)%20%E4%BC%9A%E8%BE%93%E5%87%BA19">
+		</outline>
+		<outline text="a=5   b=a  print(a,b) 会出来 5 5 但是如果多写一句a=3 print出来的结果其实是3 5  这个数学上不一样 因为我只改了a的赋值 b默认还是保持5的原样而不是跟着a变了" _mubu_text="a=5%20%20%20b=a%20%20print(a,b)%20%E4%BC%9A%E5%87%BA%E6%9D%A5%205%205%20%E4%BD%86%E6%98%AF%E5%A6%82%E6%9E%9C%E5%A4%9A%E5%86%99%E4%B8%80%E5%8F%A5a=3%20print%E5%87%BA%E6%9D%A5%E7%9A%84%E7%BB%93%E6%9E%9C%E5%85%B6%E5%AE%9E%E6%98%AF3%205%20%20%E8%BF%99%E4%B8%AA%E6%95%B0%E5%AD%A6%E4%B8%8A%E4%B8%8D%E4%B8%80%E6%A0%B7%20%E5%9B%A0%E4%B8%BA%E6%88%91%E5%8F%AA%E6%94%B9%E4%BA%86a%E7%9A%84%E8%B5%8B%E5%80%BC%20b%E9%BB%98%E8%AE%A4%E8%BF%98%E6%98%AF%E4%BF%9D%E6%8C%815%E7%9A%84%E5%8E%9F%E6%A0%B7%E8%80%8C%E4%B8%8D%E6%98%AF%E8%B7%9F%E7%9D%80a%E5%8F%98%E4%BA%86">
+		</outline>
+		<outline text="python中用=赋值 用==相等 跟R中不一样 R中用<-赋值" _mubu_text="python%E4%B8%AD%E7%94%A8=%E8%B5%8B%E5%80%BC%20%E7%94%A8==%E7%9B%B8%E7%AD%89%20%E8%B7%9FR%E4%B8%AD%E4%B8%8D%E4%B8%80%E6%A0%B7%20R%E4%B8%AD%E7%94%A8&amp;lt;-%E8%B5%8B%E5%80%BC">
+		</outline>
+		<outline text="x=6 print(x)现在输出x是3            继续x += 3意思是  # increment x by 3; same as x = x + 3  把x加上3个单位    print(x) 就会得到9    再来  x -= 1     看作x=x-1   # decrement x by 1  输出就是8 把x减去1个单位" _mubu_text="x=6%20print(x)%E7%8E%B0%E5%9C%A8%E8%BE%93%E5%87%BAx%E6%98%AF3%20%20%20%20%20%20%20%20%20%20%20%20%E7%BB%A7%E7%BB%ADx%20+=%203%E6%84%8F%E6%80%9D%E6%98%AF%20%20#%20increment%20x%20by%203;%20same%20as%20x%20=%20x%20+%203%20%20%E6%8A%8Ax%E5%8A%A0%E4%B8%8A3%E4%B8%AA%E5%8D%95%E4%BD%8D%20%20%20%20print(x)%20%E5%B0%B1%E4%BC%9A%E5%BE%97%E5%88%B09%20%20%20%20%E5%86%8D%E6%9D%A5%20%20x%20-=%201%20%20%20%20%20%E7%9C%8B%E4%BD%9Cx=x-1%20%20%20#%20decrement%20x%20by%201%20%20%E8%BE%93%E5%87%BA%E5%B0%B1%E6%98%AF8%20%E6%8A%8Ax%E5%87%8F%E5%8E%BB1%E4%B8%AA%E5%8D%95%E4%BD%8D">
+		</outline>
+		</outline>
+		<outline text="input Function" _mubu_text="input%20Function">
+		<outline text="input永远是把输入的东西当作string 不管输入的是数字还是啥" _mubu_text="input%E6%B0%B8%E8%BF%9C%E6%98%AF%E6%8A%8A%E8%BE%93%E5%85%A5%E7%9A%84%E4%B8%9C%E8%A5%BF%E5%BD%93%E4%BD%9Cstring%20%E4%B8%8D%E7%AE%A1%E8%BE%93%E5%85%A5%E7%9A%84%E6%98%AF%E6%95%B0%E5%AD%97%E8%BF%98%E6%98%AF%E5%95%A5">
+		</outline>
+		<outline text="n = input(&quot;Please enter your name: &quot;)" _mubu_text="n%20=%20input(%22Please%20enter%20your%20name:%20%22)">
+		</outline>
+		<outline text="一个算时间的program" _mubu_text="%E4%B8%80%E4%B8%AA%E7%AE%97%E6%97%B6%E9%97%B4%E7%9A%84program">
+		<outline text="str_seconds = input(&quot;Please enter the number of seconds you wish to convert&quot;) 给一个input语句赋值成为str_seconds" _mubu_text="str_seconds%20=%20input(%22Please%20enter%20the%20number%20of%20seconds%20you%20wish%20to%20convert%22)%20%E7%BB%99%E4%B8%80%E4%B8%AAinput%E8%AF%AD%E5%8F%A5%E8%B5%8B%E5%80%BC%E6%88%90%E4%B8%BAstr_seconds">
+		</outline>
+		<outline text="total_secs = int(str_seconds) 把这个语句转化成整数type" _mubu_text="total_secs%20=%20int(str_seconds)%20%E6%8A%8A%E8%BF%99%E4%B8%AA%E8%AF%AD%E5%8F%A5%E8%BD%AC%E5%8C%96%E6%88%90%E6%95%B4%E6%95%B0type">
+		</outline>
+		<outline text="hours = total_secs // 3600 整除输入的秒数取整数记作小时" _mubu_text="hours%20=%20total_secs%20//%203600%20%E6%95%B4%E9%99%A4%E8%BE%93%E5%85%A5%E7%9A%84%E7%A7%92%E6%95%B0%E5%8F%96%E6%95%B4%E6%95%B0%E8%AE%B0%E4%BD%9C%E5%B0%8F%E6%97%B6">
+		</outline>
+		<outline text="secs_still_remaining = total_secs % 3600 取输入秒数除以3600的模算出小时整除时舍弃了多少秒记作..." _mubu_text="secs_still_remaining%20=%20total_secs%20%25%203600%20%E5%8F%96%E8%BE%93%E5%85%A5%E7%A7%92%E6%95%B0%E9%99%A4%E4%BB%A53600%E7%9A%84%E6%A8%A1%E7%AE%97%E5%87%BA%E5%B0%8F%E6%97%B6%E6%95%B4%E9%99%A4%E6%97%B6%E8%88%8D%E5%BC%83%E4%BA%86%E5%A4%9A%E5%B0%91%E7%A7%92%E8%AE%B0%E4%BD%9C...">
+		</outline>
+		<outline text="minutes =  secs_still_remaining // 60 整除这些秒数得到分钟" _mubu_text="minutes%20=%20%20secs_still_remaining%20//%2060%20%E6%95%B4%E9%99%A4%E8%BF%99%E4%BA%9B%E7%A7%92%E6%95%B0%E5%BE%97%E5%88%B0%E5%88%86%E9%92%9F">
+		</outline>
+		<outline text="secs_finally_remaining = secs_still_remaining  % 60 再取模把弄成分钟还剩下的秒数算出来" _mubu_text="secs_finally_remaining%20=%20secs_still_remaining%20%20%25%2060%20%E5%86%8D%E5%8F%96%E6%A8%A1%E6%8A%8A%E5%BC%84%E6%88%90%E5%88%86%E9%92%9F%E8%BF%98%E5%89%A9%E4%B8%8B%E7%9A%84%E7%A7%92%E6%95%B0%E7%AE%97%E5%87%BA%E6%9D%A5">
+		</outline>
+		<outline text="print(&quot;Hrs=&quot;, hours, &quot;mins=&quot;, minutes, &quot;secs=&quot;,  secs_finally_remaining) 输出小时分钟秒" _mubu_text="print(%22Hrs=%22,%20hours,%20%22mins=%22,%20minutes,%20%22secs=%22,%20%20secs_finally_remaining)%20%E8%BE%93%E5%87%BA%E5%B0%8F%E6%97%B6%E5%88%86%E9%92%9F%E7%A7%92">
+		</outline>
+		</outline>
+		</outline>
+		</outline>
+		<outline text="Turtle 画画" _mubu_text="Turtle%20%E7%94%BB%E7%94%BB">
+		<outline text="define class" _mubu_text="define%20class">
+		</outline>
+		<outline text="method" _mubu_text="method">
+		<outline text="特殊种类的方程 比如说alex.forward()" _mubu_text="%E7%89%B9%E6%AE%8A%E7%A7%8D%E7%B1%BB%E7%9A%84%E6%96%B9%E7%A8%8B%20%E6%AF%94%E5%A6%82%E8%AF%B4alex.forward()">
+		</outline>
+		</outline>
+		<outline text="instance " _mubu_text="instance%20">
+		<outline text="这里就是指 alex    Turtle in a class rather than a function, 有点像是 因为大Turtle是defined in 小turtle的module里的 所以要把他们两个放在一起写成 turtle.Turtle()然后再命名 大Turtle是小turtle module里的乌龟" _mubu_text="%E8%BF%99%E9%87%8C%E5%B0%B1%E6%98%AF%E6%8C%87%20alex%20%20%20%20Turtle%20in%20a%20class%20rather%20than%20a%20function,%20%E6%9C%89%E7%82%B9%E5%83%8F%E6%98%AF%20%E5%9B%A0%E4%B8%BA%E5%A4%A7Turtle%E6%98%AFdefined%20in%20%E5%B0%8Fturtle%E7%9A%84module%E9%87%8C%E7%9A%84%20%E6%89%80%E4%BB%A5%E8%A6%81%E6%8A%8A%E4%BB%96%E4%BB%AC%E4%B8%A4%E4%B8%AA%E6%94%BE%E5%9C%A8%E4%B8%80%E8%B5%B7%E5%86%99%E6%88%90%20turtle.Turtle()%E7%84%B6%E5%90%8E%E5%86%8D%E5%91%BD%E5%90%8D%20%E5%A4%A7Turtle%E6%98%AF%E5%B0%8Fturtle%20module%E9%87%8C%E7%9A%84%E4%B9%8C%E9%BE%9F">
+		</outline>
+		</outline>
+		<outline text="attribute / instance variables " _mubu_text="attribute%20/%20instance%20variables%20">
+		<outline text="属性 可以为属性赋值  有时候又叫properties 就是可以做的事情alex.price = 500     tess.price = 600     print(alex.price + tess.price)" _mubu_text="%E5%B1%9E%E6%80%A7%20%E5%8F%AF%E4%BB%A5%E4%B8%BA%E5%B1%9E%E6%80%A7%E8%B5%8B%E5%80%BC%20%20%E6%9C%89%E6%97%B6%E5%80%99%E5%8F%88%E5%8F%ABproperties%20%E5%B0%B1%E6%98%AF%E5%8F%AF%E4%BB%A5%E5%81%9A%E7%9A%84%E4%BA%8B%E6%83%85alex.price%20=%20500%20%20%20%20%20tess.price%20=%20600%20%20%20%20%20print(alex.price%20+%20tess.price)">
+		</outline>
+		<outline text="" _mubu_text="" _images="%5B%7B%22id%22%3A%2217417086c439f7002-4983765%22%2C%22oh%22%3A363%2C%22ow%22%3A678%2C%22uri%22%3A%22document_image%2Fb9d06b6d-28b5-4045-aca8-9b20c6772ec5-4983765.jpg%22%7D%5D">
+		</outline>
+		<outline text="比如说 each turtle has a color attribute 就可以写成alex.color(“red”) 让他画出来的曲线变成红色" _mubu_text="%E6%AF%94%E5%A6%82%E8%AF%B4%20each%20turtle%20has%20a%20color%20attribute%20%E5%B0%B1%E5%8F%AF%E4%BB%A5%E5%86%99%E6%88%90alex.color(%E2%80%9Cred%E2%80%9D)%20%E8%AE%A9%E4%BB%96%E7%94%BB%E5%87%BA%E6%9D%A5%E7%9A%84%E6%9B%B2%E7%BA%BF%E5%8F%98%E6%88%90%E7%BA%A2%E8%89%B2">
+		</outline>
+		<outline text="The color of the turtle, the width of its pen(tail), the position of the turtle within the window, which way it is facing, and so on are all part of its current state. Similarly, the window object has a background color which is part of its state.状态" _mubu_text="The%20color%20of%20the%20turtle,%20the%20width%20of%20its%20pen(tail),%20the%20position%20of%20the%20turtle%20within%20the%20window,%20which%20way%20it%20is%20facing,%20and%20so%20on%20are%20all%20part%20of%20its%20current%20state.%20Similarly,%20the%20window%20object%20has%20a%20background%20color%20which%20is%20part%20of%20its%20state.%E7%8A%B6%E6%80%81">
+		</outline>
+		</outline>
+		<outline text="一个走了的程序" _mubu_text="%E4%B8%80%E4%B8%AA%E8%B5%B0%E4%BA%86%E7%9A%84%E7%A8%8B%E5%BA%8F">
+		<outline text="乌龟 the turtle starts out facing east." _mubu_text="%E4%B9%8C%E9%BE%9F%20the%20turtle%20starts%20out%20facing%20east.">
+		</outline>
+		<outline text="加载一个名叫turtle的总模块 总模块底下有其中两个type 一个是Turtle 一个是Screen" _mubu_text="%E5%8A%A0%E8%BD%BD%E4%B8%80%E4%B8%AA%E5%90%8D%E5%8F%ABturtle%E7%9A%84%E6%80%BB%E6%A8%A1%E5%9D%97%20%E6%80%BB%E6%A8%A1%E5%9D%97%E5%BA%95%E4%B8%8B%E6%9C%89%E5%85%B6%E4%B8%AD%E4%B8%A4%E4%B8%AAtype%20%E4%B8%80%E4%B8%AA%E6%98%AFTurtle%20%E4%B8%80%E4%B8%AA%E6%98%AFScreen">
+		</outline>
+		<outline text="import turtle     # allows us to use the turtles library 导入了一个turtle module而不是创造了一只龟的意思" _mubu_text="import%20turtle%20%20%20%20%20#%20allows%20us%20to%20use%20the%20turtles%20library%20%E5%AF%BC%E5%85%A5%E4%BA%86%E4%B8%80%E4%B8%AAturtle%20module%E8%80%8C%E4%B8%8D%E6%98%AF%E5%88%9B%E9%80%A0%E4%BA%86%E4%B8%80%E5%8F%AA%E9%BE%9F%E7%9A%84%E6%84%8F%E6%80%9D">
+		</outline>
+		<outline text=" wn = turtle.Screen()&nbsp; &nbsp; &nbsp; # creates a graphics window  turtle和Screen中间的点是有意义的   Screen也可以叫window或者canvas 就是加一块屏幕窗口画布的意思 方便之后作画 取名叫wn" _mubu_text="%20wn%20=%20turtle.Screen()%C2%A0%20%C2%A0%20%C2%A0%20#%20creates%20a%20graphics%20window%20%20turtle%E5%92%8CScreen%E4%B8%AD%E9%97%B4%E7%9A%84%E7%82%B9%E6%98%AF%E6%9C%89%E6%84%8F%E4%B9%89%E7%9A%84%20%20%20Screen%E4%B9%9F%E5%8F%AF%E4%BB%A5%E5%8F%ABwindow%E6%88%96%E8%80%85canvas%20%E5%B0%B1%E6%98%AF%E5%8A%A0%E4%B8%80%E5%9D%97%E5%B1%8F%E5%B9%95%E7%AA%97%E5%8F%A3%E7%94%BB%E5%B8%83%E7%9A%84%E6%84%8F%E6%80%9D%20%E6%96%B9%E4%BE%BF%E4%B9%8B%E5%90%8E%E4%BD%9C%E7%94%BB%20%E5%8F%96%E5%90%8D%E5%8F%ABwn">
+		</outline>
+		<outline text="给乌龟爬的地方做了个画布 画布就是Screen type" _mubu_text="%E7%BB%99%E4%B9%8C%E9%BE%9F%E7%88%AC%E7%9A%84%E5%9C%B0%E6%96%B9%E5%81%9A%E4%BA%86%E4%B8%AA%E7%94%BB%E5%B8%83%20%E7%94%BB%E5%B8%83%E5%B0%B1%E6%98%AFScreen%20type">
+		</outline>
+		<outline text="大小写是区分开来的 module模块是小写 type Turtle是大写   这里就是创造了一只乌龟是Turtle type的 然后alex是Turtle type的一只龟 叫alex（variable）" _mubu_text="%E5%A4%A7%E5%B0%8F%E5%86%99%E6%98%AF%E5%8C%BA%E5%88%86%E5%BC%80%E6%9D%A5%E7%9A%84%20module%E6%A8%A1%E5%9D%97%E6%98%AF%E5%B0%8F%E5%86%99%20type%20Turtle%E6%98%AF%E5%A4%A7%E5%86%99%20%20%20%E8%BF%99%E9%87%8C%E5%B0%B1%E6%98%AF%E5%88%9B%E9%80%A0%E4%BA%86%E4%B8%80%E5%8F%AA%E4%B9%8C%E9%BE%9F%E6%98%AFTurtle%20type%E7%9A%84%20%E7%84%B6%E5%90%8Ealex%E6%98%AFTurtle%20type%E7%9A%84%E4%B8%80%E5%8F%AA%E9%BE%9F%20%E5%8F%ABalex%EF%BC%88variable%EF%BC%89">
+		</outline>
+		<outline text="alex = turtle.Turtle()&nbsp; &nbsp; # create a turtle named alex  turtle.Turtle意思就是 the Turtle type that is defined within the turtle module  " _mubu_text="alex%20=%20turtle.Turtle()%C2%A0%20%C2%A0%20#%20create%20a%20turtle%20named%20alex%20%20turtle.Turtle%E6%84%8F%E6%80%9D%E5%B0%B1%E6%98%AF%20the%20Turtle%20type%20that%20is%20defined%20within%20the%20turtle%20module%20%20">
+		</outline>
+		<outline text="alex.forward(150)         # tell alex to move forward by 150 units 向前走150单位" _mubu_text="alex.forward(150)%20%20%20%20%20%20%20%20%20#%20tell%20alex%20to%20move%20forward%20by%20150%20units%20%E5%90%91%E5%89%8D%E8%B5%B0150%E5%8D%95%E4%BD%8D">
+		</outline>
+		<outline text="alex.left(90)             # turn by 90 degrees向左转90度" _mubu_text="alex.left(90)%20%20%20%20%20%20%20%20%20%20%20%20%20#%20turn%20by%2090%20degrees%E5%90%91%E5%B7%A6%E8%BD%AC90%E5%BA%A6">
+		</outline>
+		<outline text="alex.forward(75)          # complete the second side of a rectangle 向前走90单位" _mubu_text="alex.forward(75)%20%20%20%20%20%20%20%20%20%20#%20complete%20the%20second%20side%20of%20a%20rectangle%20%E5%90%91%E5%89%8D%E8%B5%B090%E5%8D%95%E4%BD%8D">
+		</outline>
+		<outline text="wn.bgcolor(&quot;lightgreen&quot;)        # set the window background color  画布的颜色变成了亮绿色bg是background的缩写" _mubu_text="wn.bgcolor(%22lightgreen%22)%20%20%20%20%20%20%20%20#%20set%20the%20window%20background%20color%20%20%E7%94%BB%E5%B8%83%E7%9A%84%E9%A2%9C%E8%89%B2%E5%8F%98%E6%88%90%E4%BA%86%E4%BA%AE%E7%BB%BF%E8%89%B2bg%E6%98%AFbackground%E7%9A%84%E7%BC%A9%E5%86%99">
+		</outline>
+		<outline text="" _mubu_text="" _images="%5B%7B%22id%22%3A%221b61708562e29d0f5%22%2C%22oh%22%3A424%2C%22ow%22%3A444%2C%22uri%22%3A%22document_image%2F4f40e6e9-0b92-43c4-8f81-262e304f2fb9-4983765.jpg%22%2C%22w%22%3A169%7D%5D">
+		</outline>
+		<outline text="alex.color(&quot;blue&quot;)              变成了蓝乌龟" _mubu_text="alex.color(%22blue%22)%20%20%20%20%20%20%20%20%20%20%20%20%20%20%E5%8F%98%E6%88%90%E4%BA%86%E8%93%9D%E4%B9%8C%E9%BE%9F">
+		</outline>
+		<outline text="alex.pensize(3)                 # set the width of her pen尾巴画出的宽度是3" _mubu_text="alex.pensize(3)%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20#%20set%20the%20width%20of%20her%20pen%E5%B0%BE%E5%B7%B4%E7%94%BB%E5%87%BA%E7%9A%84%E5%AE%BD%E5%BA%A6%E6%98%AF3">
+		</outline>
+		<outline text="wn.exitonclick()                # wait for a user click on the canvas 如果在画布上点一下就会发现 画布自动消失了   关闭turtle窗口并退出(停止执行)Python程序。" _mubu_text="wn.exitonclick()%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20#%20wait%20for%20a%20user%20click%20on%20the%20canvas%20%E5%A6%82%E6%9E%9C%E5%9C%A8%E7%94%BB%E5%B8%83%E4%B8%8A%E7%82%B9%E4%B8%80%E4%B8%8B%E5%B0%B1%E4%BC%9A%E5%8F%91%E7%8E%B0%20%E7%94%BB%E5%B8%83%E8%87%AA%E5%8A%A8%E6%B6%88%E5%A4%B1%E4%BA%86%20%20%20%E5%85%B3%E9%97%ADturtle%E7%AA%97%E5%8F%A3%E5%B9%B6%E9%80%80%E5%87%BA(%E5%81%9C%E6%AD%A2%E6%89%A7%E8%A1%8C)Python%E7%A8%8B%E5%BA%8F%E3%80%82">
+		</outline>
+		</outline>
+		<outline text="可以有多只乌龟 a herd of Turtles" _mubu_text="%E5%8F%AF%E4%BB%A5%E6%9C%89%E5%A4%9A%E5%8F%AA%E4%B9%8C%E9%BE%9F%20a%20herd%20of%20Turtles">
+		<outline text="有一个注意的点是  比如说让乌龟画了一个三角形 到最后一笔的时候乌龟头的方向不是向起始一样往东走了 但是我们需要把他归位  哪怕接下来乌龟不爬了也是这样  这样就不用换算单位 方便写码" _mubu_text="%E6%9C%89%E4%B8%80%E4%B8%AA%E6%B3%A8%E6%84%8F%E7%9A%84%E7%82%B9%E6%98%AF%20%20%E6%AF%94%E5%A6%82%E8%AF%B4%E8%AE%A9%E4%B9%8C%E9%BE%9F%E7%94%BB%E4%BA%86%E4%B8%80%E4%B8%AA%E4%B8%89%E8%A7%92%E5%BD%A2%20%E5%88%B0%E6%9C%80%E5%90%8E%E4%B8%80%E7%AC%94%E7%9A%84%E6%97%B6%E5%80%99%E4%B9%8C%E9%BE%9F%E5%A4%B4%E7%9A%84%E6%96%B9%E5%90%91%E4%B8%8D%E6%98%AF%E5%90%91%E8%B5%B7%E5%A7%8B%E4%B8%80%E6%A0%B7%E5%BE%80%E4%B8%9C%E8%B5%B0%E4%BA%86%20%E4%BD%86%E6%98%AF%E6%88%91%E4%BB%AC%E9%9C%80%E8%A6%81%E6%8A%8A%E4%BB%96%E5%BD%92%E4%BD%8D%20%20%E5%93%AA%E6%80%95%E6%8E%A5%E4%B8%8B%E6%9D%A5%E4%B9%8C%E9%BE%9F%E4%B8%8D%E7%88%AC%E4%BA%86%E4%B9%9F%E6%98%AF%E8%BF%99%E6%A0%B7%20%20%E8%BF%99%E6%A0%B7%E5%B0%B1%E4%B8%8D%E7%94%A8%E6%8D%A2%E7%AE%97%E5%8D%95%E4%BD%8D%20%E6%96%B9%E4%BE%BF%E5%86%99%E7%A0%81">
+		</outline>
+		</outline>
+		</outline>
+		<outline text="For loop" _mubu_text="For%20loop">
+		<outline text="有个小程序" _mubu_text="%E6%9C%89%E4%B8%AA%E5%B0%8F%E7%A8%8B%E5%BA%8F">
+		<outline text="for _ in range(3):" _mubu_text="for%20_%20in%20range(3):">
+		</outline>
+		<outline text="     print(&quot;This line will execute three times&quot;)" _mubu_text="%20%20%20%20%20print(%22This%20line%20will%20execute%20three%20times%22)">
+		</outline>
+		<outline text="     print(&quot;This line will also execute three times&quot;)" _mubu_text="%20%20%20%20%20print(%22This%20line%20will%20also%20execute%20three%20times%22)">
+		</outline>
+		<outline text="结果是会2条语句121212重复3次而不是111222" _mubu_text="%E7%BB%93%E6%9E%9C%E6%98%AF%E4%BC%9A2%E6%9D%A1%E8%AF%AD%E5%8F%A5121212%E9%87%8D%E5%A4%8D3%E6%AC%A1%E8%80%8C%E4%B8%8D%E6%98%AF111222">
+		</outline>
+		<outline text="for底下的缩进很重要！没有缩进就在for之外了 " _mubu_text="for%E5%BA%95%E4%B8%8B%E7%9A%84%E7%BC%A9%E8%BF%9B%E5%BE%88%E9%87%8D%E8%A6%81%EF%BC%81%E6%B2%A1%E6%9C%89%E7%BC%A9%E8%BF%9B%E5%B0%B1%E5%9C%A8for%E4%B9%8B%E5%A4%96%E4%BA%86%20">
+		</outline>
+		<outline text="for句子最后需要有冒号不要忘了！" _mubu_text="for%E5%8F%A5%E5%AD%90%E6%9C%80%E5%90%8E%E9%9C%80%E8%A6%81%E6%9C%89%E5%86%92%E5%8F%B7%E4%B8%8D%E8%A6%81%E5%BF%98%E4%BA%86%EF%BC%81">
+		</outline>
+		</outline>
+		<outline text="继续画高等乌龟" _mubu_text="%E7%BB%A7%E7%BB%AD%E7%94%BB%E9%AB%98%E7%AD%89%E4%B9%8C%E9%BE%9F">
+		<outline text="乌龟转的角度可以是正的也可以是负数，但是方向会不一样 比如向左-30就是直接向右了 但是向左330要转一大圈再变到那个位置 同样前进和后退也可以负数" _mubu_text="%E4%B9%8C%E9%BE%9F%E8%BD%AC%E7%9A%84%E8%A7%92%E5%BA%A6%E5%8F%AF%E4%BB%A5%E6%98%AF%E6%AD%A3%E7%9A%84%E4%B9%9F%E5%8F%AF%E4%BB%A5%E6%98%AF%E8%B4%9F%E6%95%B0%EF%BC%8C%E4%BD%86%E6%98%AF%E6%96%B9%E5%90%91%E4%BC%9A%E4%B8%8D%E4%B8%80%E6%A0%B7%20%E6%AF%94%E5%A6%82%E5%90%91%E5%B7%A6-30%E5%B0%B1%E6%98%AF%E7%9B%B4%E6%8E%A5%E5%90%91%E5%8F%B3%E4%BA%86%20%E4%BD%86%E6%98%AF%E5%90%91%E5%B7%A6330%E8%A6%81%E8%BD%AC%E4%B8%80%E5%A4%A7%E5%9C%88%E5%86%8D%E5%8F%98%E5%88%B0%E9%82%A3%E4%B8%AA%E4%BD%8D%E7%BD%AE%20%E5%90%8C%E6%A0%B7%E5%89%8D%E8%BF%9B%E5%92%8C%E5%90%8E%E9%80%80%E4%B9%9F%E5%8F%AF%E4%BB%A5%E8%B4%9F%E6%95%B0">
+		</outline>
+		<outline text="alex.backward(-100)就是往前走100" _mubu_text="alex.backward(-100)%E5%B0%B1%E6%98%AF%E5%BE%80%E5%89%8D%E8%B5%B0100">
+		</outline>
+		<outline text="乌龟的尾巴也可以不拖着 用alex.up() 就行" _mubu_text="%E4%B9%8C%E9%BE%9F%E7%9A%84%E5%B0%BE%E5%B7%B4%E4%B9%9F%E5%8F%AF%E4%BB%A5%E4%B8%8D%E6%8B%96%E7%9D%80%20%E7%94%A8alex.up()%20%E5%B0%B1%E8%A1%8C">
+		</outline>
+		<outline text="Every turtle can have its own shape. The ones available “out of the box” are arrow, blank, circle, classic, square, triangle, turtle." _mubu_text="Every%20turtle%20can%20have%20its%20own%20shape.%20The%20ones%20available%20%E2%80%9Cout%20of%20the%20box%E2%80%9D%20are%20arrow,%20blank,%20circle,%20classic,%20square,%20triangle,%20turtle.">
+		</outline>
+		<outline text="速度也可以设置alex.speed(10)" _mubu_text="%E9%80%9F%E5%BA%A6%E4%B9%9F%E5%8F%AF%E4%BB%A5%E8%AE%BE%E7%BD%AEalex.speed(10)">
+		</outline>
+		<outline text="tess.stamp() 印下自己的脚印" _mubu_text="tess.stamp()%20%E5%8D%B0%E4%B8%8B%E8%87%AA%E5%B7%B1%E7%9A%84%E8%84%9A%E5%8D%B0">
+		</outline>
+		<outline text="" _mubu_text="" _images="%5B%7B%22id%22%3A%2238117086ad40a10c2%22%2C%22oh%22%3A706%2C%22ow%22%3A696%2C%22uri%22%3A%22document_image%2F335c62bd-53b5-4ce6-841d-e9b6a0231d04-4983765.jpg%22%7D%5D">
+		</outline>
+		</outline>
+		</outline>
+		<outline text="module：含有很多python的class function...的集合" _mubu_text="module%EF%BC%9A%E5%90%AB%E6%9C%89%E5%BE%88%E5%A4%9Apython%E7%9A%84class%20function...%E7%9A%84%E9%9B%86%E5%90%88">
+		<outline text="import module就是把这些集合都导入进你的python程序中 所以之后在用module里面的东西的时候就要写  e.g. alex = turtle.Turtle()   来自turtle module的Turtle Instance 然后命名为alex" _mubu_text="import%20module%E5%B0%B1%E6%98%AF%E6%8A%8A%E8%BF%99%E4%BA%9B%E9%9B%86%E5%90%88%E9%83%BD%E5%AF%BC%E5%85%A5%E8%BF%9B%E4%BD%A0%E7%9A%84python%E7%A8%8B%E5%BA%8F%E4%B8%AD%20%E6%89%80%E4%BB%A5%E4%B9%8B%E5%90%8E%E5%9C%A8%E7%94%A8module%E9%87%8C%E9%9D%A2%E7%9A%84%E4%B8%9C%E8%A5%BF%E7%9A%84%E6%97%B6%E5%80%99%E5%B0%B1%E8%A6%81%E5%86%99%20%20e.g.%20alex%20=%20turtle.Turtle()%20%20%20%E6%9D%A5%E8%87%AAturtle%20module%E7%9A%84Turtle%20Instance%20%E7%84%B6%E5%90%8E%E5%91%BD%E5%90%8D%E4%B8%BAalex">
+		</outline>
+		<outline text="或者写from  A import  B 下面就可以直接用B而不是A.B了" _mubu_text="%E6%88%96%E8%80%85%E5%86%99from%20%20A%20import%20%20B%20%E4%B8%8B%E9%9D%A2%E5%B0%B1%E5%8F%AF%E4%BB%A5%E7%9B%B4%E6%8E%A5%E7%94%A8B%E8%80%8C%E4%B8%8D%E6%98%AFA.B%E4%BA%86">
+		</outline>
+		<outline text="random module" _mubu_text="random%20module">
+		<outline text="小项目" _mubu_text="%E5%B0%8F%E9%A1%B9%E7%9B%AE">
+		<outline text="import random" _mubu_text="import%20random">
+		</outline>
+		<outline text="prob = random.random()" _mubu_text="prob%20=%20random.random()">
+		</outline>
+		<outline text="print(prob)" _mubu_text="print(prob)">
+		</outline>
+		<outline text="diceThrow = random.randrange(1,7)       # return an int, one of 1,2,3,4,5,6  这里注意了是有1无7  如果只有(7)那假定第一个数字是0 从0-6" _mubu_text="diceThrow%20=%20random.randrange(1,7)%20%20%20%20%20%20%20#%20return%20an%20int,%20one%20of%201,2,3,4,5,6%20%20%E8%BF%99%E9%87%8C%E6%B3%A8%E6%84%8F%E4%BA%86%E6%98%AF%E6%9C%891%E6%97%A07%20%20%E5%A6%82%E6%9E%9C%E5%8F%AA%E6%9C%89(7)%E9%82%A3%E5%81%87%E5%AE%9A%E7%AC%AC%E4%B8%80%E4%B8%AA%E6%95%B0%E5%AD%97%E6%98%AF0%20%E4%BB%8E0-6">
+		</outline>
+		<outline text="print(diceThrow)" _mubu_text="print(diceThrow)">
+		</outline>
+		</outline>
+		</outline>
+		</outline>
+		<outline text="Degugging" _mubu_text="Degugging">
+		<outline text="Syntax errors 语法错误" _mubu_text="Syntax%20errors%20%E8%AF%AD%E6%B3%95%E9%94%99%E8%AF%AF">
+		<outline text="statement not well formed" _mubu_text="statement%20not%20well%20formed">
+		</outline>
+		<outline text="print(&quot;Hello World!&quot;会说SyntaxError: EOF in multi-line statement on line 3 因为并没有把括号扩上 所以程序一直不停运行" _mubu_text="print(%22Hello%20World!%22%E4%BC%9A%E8%AF%B4SyntaxError:%20EOF%20in%20multi-line%20statement%20on%20line%203%20%E5%9B%A0%E4%B8%BA%E5%B9%B6%E6%B2%A1%E6%9C%89%E6%8A%8A%E6%8B%AC%E5%8F%B7%E6%89%A9%E4%B8%8A%20%E6%89%80%E4%BB%A5%E7%A8%8B%E5%BA%8F%E4%B8%80%E7%9B%B4%E4%B8%8D%E5%81%9C%E8%BF%90%E8%A1%8C">
+		</outline>
+		<outline text="有时候告诉你line 4 错误可能是因为前面的错误导致的" _mubu_text="%E6%9C%89%E6%97%B6%E5%80%99%E5%91%8A%E8%AF%89%E4%BD%A0line%204%20%E9%94%99%E8%AF%AF%E5%8F%AF%E8%83%BD%E6%98%AF%E5%9B%A0%E4%B8%BA%E5%89%8D%E9%9D%A2%E7%9A%84%E9%94%99%E8%AF%AF%E5%AF%BC%E8%87%B4%E7%9A%84">
+		</outline>
+		<outline text="有个tips就是你可以#掉显示错误的那一行 如果继续往下运行还是错的 那可能就要往上看看了" _mubu_text="%E6%9C%89%E4%B8%AAtips%E5%B0%B1%E6%98%AF%E4%BD%A0%E5%8F%AF%E4%BB%A5#%E6%8E%89%E6%98%BE%E7%A4%BA%E9%94%99%E8%AF%AF%E7%9A%84%E9%82%A3%E4%B8%80%E8%A1%8C%20%E5%A6%82%E6%9E%9C%E7%BB%A7%E7%BB%AD%E5%BE%80%E4%B8%8B%E8%BF%90%E8%A1%8C%E8%BF%98%E6%98%AF%E9%94%99%E7%9A%84%20%E9%82%A3%E5%8F%AF%E8%83%BD%E5%B0%B1%E8%A6%81%E5%BE%80%E4%B8%8A%E7%9C%8B%E7%9C%8B%E4%BA%86">
+		</outline>
+		</outline>
+		<outline text="Runtime errors" _mubu_text="Runtime%20errors">
+		<outline text="print(3/0) 这种 illegal process" _mubu_text="print(3/0)%20%E8%BF%99%E7%A7%8D%20illegal%20process">
+		</outline>
+		<outline text="在运行程序之前错误不会发现" _mubu_text="%E5%9C%A8%E8%BF%90%E8%A1%8C%E7%A8%8B%E5%BA%8F%E4%B9%8B%E5%89%8D%E9%94%99%E8%AF%AF%E4%B8%8D%E4%BC%9A%E5%8F%91%E7%8E%B0">
+		</outline>
+		</outline>
+		<outline text="Semantic errors 语义错误" _mubu_text="Semantic%20errors%20%E8%AF%AD%E4%B9%89%E9%94%99%E8%AF%AF">
+		<outline text="can't produce  比如忘记了/100变成百分数这种" _mubu_text="can't%20produce%20%20%E6%AF%94%E5%A6%82%E5%BF%98%E8%AE%B0%E4%BA%86/100%E5%8F%98%E6%88%90%E7%99%BE%E5%88%86%E6%95%B0%E8%BF%99%E7%A7%8D">
+		</outline>
+		<outline text="你想写的程序和做出来的东西有差别" _mubu_text="%E4%BD%A0%E6%83%B3%E5%86%99%E7%9A%84%E7%A8%8B%E5%BA%8F%E5%92%8C%E5%81%9A%E5%87%BA%E6%9D%A5%E7%9A%84%E4%B8%9C%E8%A5%BF%E6%9C%89%E5%B7%AE%E5%88%AB">
+		</outline>
+		</outline>
+		<outline text="" _mubu_text="">
+		</outline>
+		</outline>
+	</body>
+</opml>
